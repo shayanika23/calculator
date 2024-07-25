@@ -1,0 +1,17 @@
+a = int(input("Enter the number:"))
+b = input("Enter the operation:")
+c = int(input("Enter the number:"))
+if b == '+':
+    print(a+c)
+elif b == '-':
+    print(a-c)
+elif b == '*':
+    print(a*c)
+elif b == '/':
+    print(a/c)
+elif b == '%':
+    print(a%c)
+elif b == '**':
+    print(a**c)
+elif b == '//':
+    print(a//c)
